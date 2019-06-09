@@ -8,6 +8,14 @@ var version = '5.1.2-1';
 
 bot.on('ready', () => {
     console.log('This bot is online!');
+//Introduction
+bot.on('guildMemberAdd', member =>{
+
+    const channel= member.guild.channels.find(channel => channel.name === "documents")
+    if(!channel) return;
+
+    channel.send(`Welcome ${member}, input -help for more information.`)
+});    
     //Activity (below)
     bot.user.setActivity('-help', { type: 'LISTENING' });
 
