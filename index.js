@@ -34,7 +34,7 @@ bot.on('message', message => {
             message.channel.send('https://autotouch.net/')
             break;
         case 'help':
-            message.channel.send('Usages: \n**-doc** documentations. \n**-site** website. \n**-repo** repositories.\n**-about** what AutoTouch is.')
+            message.channel.send('Usages: \n**-doc** documentations. \n**-site** website. \n**-repo** repositories.\n**-about** what AutoTouch is.\n**-version** Displays AutoTouchs latest version(s).')
             break;
         case 'repo':
             message.channel.send('- Official repo: **https://apt.autotouch.net/** \n- Beta repo: **https://beta.autotouch.net/**')
@@ -793,7 +793,7 @@ end
             message.channel.send('To fix the Mach Error please reboot the device in question and reapply the jailbreak. This may need to be done several times for the error to go away.-11.4.1 It is suggested that devices running iOS 11.4.1 to be jailbroken with Electra. If you are on unc0ver you will need to run "restore rootFS" before installing and jailbreaking with Electra.')
             break;
         case "author":
-            message.channel.send(`Here are some trusted authors.\n **<@294623609786204160>** \n**<@530284644034150401>**\n*DM <@572158805304017005> if you think you should be on the list.* `)
+            message.channel.send(`Here are some trusted authors.\n*530284644034150401 *<@>** \n**<@294623609786204160>**\n*DM <@572158805304017005> if you think you should be on the list.* `)
             break;
     }
 
